@@ -2,11 +2,8 @@ from binance.client import Client
 import Keys
 import Notifs
 
-# Test email notifs
 def main():
-   print("SNEDING MESSAGE")
-   Notifs.send("Test", "Testing notifications. Success!")
-   print("MESSAGE SENT")
+   print("hi, i'm terminaltrader!")
 
 if __name__ == "__main__":
    main()
