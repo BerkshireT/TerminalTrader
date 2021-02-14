@@ -4,7 +4,9 @@ import Notifs
 
 # Test email notifs
 def main():
-   Notifs.send("Testing notifications. Success!")
+   print("SNEDING MESSAGE")
+   Notifs.send("Test", "Testing notifications. Success!")
+   print("MESSAGE SENT")
 
 if __name__ == "__main__":
    main()

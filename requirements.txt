@@ -1,0 +1,2 @@
+python_binance==0.7.9
+binance==0.3
